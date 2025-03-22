@@ -158,12 +158,12 @@ print(f"Limiar de Otsu (Filtrado): {otsu_trsh_filtered}")
 # Geração do gráfico
 plot_signal(
     df_filtered, signal_filtered, 
-    median=median_value_filtered, 
-    mean_superior=mean_superior_filtered, 
-    mean_inferior=mean_inferior_filtered, 
-    otsu=otsu_trsh_filtered, 
-    title='Soma das Acelerações vs. Tempo (Após Remoção de Outliers)', 
-    save_path=file_path
+    median = median_value_filtered, 
+    mean_superior = mean_superior_filtered, 
+    mean_inferior = mean_inferior_filtered, 
+    otsu = otsu_trsh_filtered, 
+    title = 'Soma das Acelerações vs. Tempo (Após Remoção de Outliers)', 
+    save_path = file_path
 )
 
 
